@@ -1,0 +1,30 @@
+{
+  "name": "foo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rspack build --mode='production'",
+    "build-w": "webpack build --mode='production'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@9.12.1+sha512.e5a7e52a4183a02d5931057f7a0dbff9d5e9ce3161e33fa68ae392125b79282a8a8a470a51dfc8a0ed86221442eb2fb57019b0990ed24fab519bf0e1bc5ccfc4",
+  "devDependencies": {
+    "@rspack/cli": "^1.0.14",
+    "@rspack/core": "^1.0.14",
+    "@types/node": "^22.7.9",
+    "@types/optimize-css-assets-webpack-plugin": "^5.0.8",
+    "cssnano": "^7.0.6",
+    "envinfo": "^7.14.0",
+    "html-webpack-plugin": "^5.6.3",
+    "optimize-css-assets-webpack-plugin": "^6.0.1",
+    "swc-loader": "^0.2.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4"
+  }
+}

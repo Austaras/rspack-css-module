@@ -1,0 +1,13 @@
+.foo {
+  animation: 1.5s linear infinite aaa;
+}
+
+.bar {
+  font-size: large;
+}
+
+@keyframes aaa {
+  to {
+    transform: rotate(360deg);
+  }
+}
