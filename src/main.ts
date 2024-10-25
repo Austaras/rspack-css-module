@@ -1,7 +1,7 @@
-import { foo } from "./index.module.css";
+import { foo, compose } from "./index.module.css";
 
 const div = document.createElement("div");
 
-div.className = foo;
+div.className = foo + " " + compose;
 
-document.body.append(foo);
+document.body.append(div);

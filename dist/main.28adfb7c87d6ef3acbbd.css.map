@@ -1,0 +1,1 @@
+{"version":3,"file":"main.28adfb7c87d6ef3acbbd.css","sources":["webpack://foo/./src/index.module.css"],"sourcesContent":[".foo {\n  animation: 1.5s linear infinite aaa;\n}\n\n.bar {\n  font-size: large;\n}\n\n@keyframes aaa {\n  to {\n    transform: rotate(360deg);\n  }\n}\n\n.compose {\n  composes: bar\n}"],"names":[],"mappings":"AAAA,8C"}
